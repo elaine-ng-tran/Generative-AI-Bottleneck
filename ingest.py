@@ -15,7 +15,7 @@ CHROMA_PATH = "./chroma_db"
  
  
 def main():
-    print("📂 Loading documents from /docs ...")
+    print("Loading documents from /docs ...")
     loader = DirectoryLoader(
         DOCS_PATH,
         glob="**/*.txt",
@@ -38,7 +38,7 @@ def main():
     print(f"Split into {len(chunks)} chunks.")
  
     # Embed and store
-    print("🔢 Embedding and storing in ChromaDB ...")
+    print("Embedding and storing in ChromaDB ...")
     embeddings = OpenAIEmbeddings()
     Chroma.from_documents(
         documents=chunks,
