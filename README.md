@@ -7,7 +7,7 @@ LLM such as ChatGPT, Google Gemini and Claude (Anthropic) have training cutoff. 
 # How This Works 
 User question -> Langchain to pull relevent chunks from document store -> Retrieved context via LLM prompt -> Grounded answer 
 
-Rather than have LLM gather information from training, it is given source documents to answer from
+Rather than have LLM gather information from training, it is given source documents to answer from. 
 
 # STACK
 Langchain |
@@ -16,8 +16,3 @@ Chroma DB |
 Python |
 Bash |
 GIT 
-
-# Prerequisites & Installation 
-
-
-
