@@ -10,12 +10,12 @@ User question -> Langchain to pull relevent chunks from document store -> Retrie
 Rather than have LLM gather information from training, it is given source documents to answer from
 
 # STACK
-Langchain 
-OpenAI API 
-Chroma DB
-Python
-Bash
-GIT 
+Langchain |
+OpenAI API |
+Chroma DB |
+Python |
+Bash |
+GIT |
 
 # Prerequisites & Installation 
 
