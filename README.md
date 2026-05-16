@@ -15,7 +15,7 @@ OpenAI API |
 Chroma DB |
 Python |
 Bash |
-GIT |
+GIT 
 
 # Prerequisites & Installation 
 
